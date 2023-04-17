@@ -40,7 +40,7 @@ export class AnimalesComponent implements OnInit {
          let t:AnimalI=data;
          this._form.setValue({
         'id_tiposanimal':t.id_tiposanimal,
-        'nombre':this.tiposanimal,
+        'nombre':t.nombre,
         'imagen':t.imagen,
 
            });
